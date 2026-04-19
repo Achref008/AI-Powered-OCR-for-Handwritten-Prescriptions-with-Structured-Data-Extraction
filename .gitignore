@@ -1,33 +1,61 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Environments
+# =========================
+# Virtual environments
+# =========================
 .venv/
 venv/
 env/
 
-# Data / datasets
-data/
-*.pth
+# =========================
+# ML / Models / Checkpoints
+# =========================
 *.pt
-*.npz
-*.npy
-*.csv
-*.png
+*.pth
+checkpoints/
+trocr_finetuned/
+corrector_model/
 
+# =========================
+# Data & Outputs
+# =========================
+data/
+debug_images/
+annotated_output/
+prescription_output.csv
+
+# =========================
+# Cache
+# =========================
+vocab_cache/
+
+# =========================
 # Logs
+# =========================
 *.log
 logs/
-checkpoints/
 
-# OS
+# =========================
+# OS files
+# =========================
 .DS_Store
 Thumbs.db
 
+# =========================
 # Secrets (IMPORTANT)
+# =========================
+kaggle.json
 gspread_key.json
 *.key
 *.pem
+
+# =========================
+# Jupyter (optional)
+# =========================
+.ipynb_checkpoints/
