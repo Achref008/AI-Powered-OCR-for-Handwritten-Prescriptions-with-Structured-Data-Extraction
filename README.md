@@ -84,8 +84,7 @@ handwritten-prescription-ocr/
 │
 ├── main.py
 ├── sample_data/
-│   ├── prescription_1.pdf
-│   └── prescription_2.pdf
+│   ├── prescription.pdf
 │
 ├── results/
 │   ├── annotated_prescription.png
