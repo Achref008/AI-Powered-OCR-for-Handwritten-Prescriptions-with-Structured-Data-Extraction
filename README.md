@@ -118,9 +118,14 @@ git clone https://github.com/your-username/handwritten-prescription-ocr.git
 cd handwritten-prescription-ocr
 
 pip install -r requirements.txt
+# Install Tesseract (required for OCR fallback)
+sudo apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-deu
 
 python austrian_rx_vision.py
 ```
+**Note**
+Tesseract is used as a secondary OCR engine to improve robustness alongside TrOCR.
+
 ---
 
 ## Tech stack
