@@ -1,0 +1,34 @@
+# ===============================================================
+# EDGESYNC: DECENTRALIZED FEDERATED LEARNING REQUIREMENTS
+# ===============================================================
+
+# --- Core Machine Learning (Jetson / CPU Nodes) ---
+# Note: For NVIDIA Jetson, install torch/torchvision using NVIDIA's 
+# official pre-built wheels for ARM64.
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.23.5
+
+# --- Neuromorphic & Heterogeneous Support (Akida Nodes) ---
+# BrainChip Akida SDK for SNN simulation and hardware acceleration
+akida>=2.0.0
+cnn2snn>=2.0.0
+
+# --- Peer-to-Peer Networking ---
+# ZeroMQ provides the low-latency asynchronous messaging needed 
+# for gossip-based model exchange.
+pyzmq>=25.0.0
+
+# --- Mathematical Utilities & Non-IID Data Handling ---
+# Scipy/Scikit-learn are used for Metropolis-Hastings gossip weights
+# and Dirichlet distribution-based data partitioning.
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# --- Visualization & Progress Tracking ---
+matplotlib>=3.7.1
+tqdm>=4.65.0
+
+# --- Configuration & Logging ---
+pyyaml>=6.0
+pandas>=2.0.0
