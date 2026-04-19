@@ -106,13 +106,14 @@ handwritten-prescription-ocr/
 ---
 
 ## Getting Started
+```bash
 git clone https://github.com/your-username/handwritten-prescription-ocr.git
 cd handwritten-prescription-ocr
 
 pip install -r requirements.txt
 
 python austrian_rx_vision.py
-
+```
 ---
 
 ## Tech stack
