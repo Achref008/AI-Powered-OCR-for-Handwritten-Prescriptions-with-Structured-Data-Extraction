@@ -115,14 +115,6 @@ Tesseract is used as a secondary OCR engine to improve robustness alongside TrOC
 
 ---
 
-## Tech stack
-- PyTorch + HuggingFace Transformers (TrOCR)
-- Tesseract OCR
-- OpenCV (image processing)
-- RapidFuzz (fuzzy matching)
-
----
-
 ## Demo
 
 **Input & Detection**
@@ -134,6 +126,14 @@ The system detects handwritten regions and extracts relevant fields:
 The extracted information is converted into structured medical data:
 
 ![OCR Output](https://github.com/Achref008/AI-Powered-OCR-for-Handwritten-Prescriptions-with-Structured-Data-Extraction/blob/main/results/structured_output.png)
+
+---
+
+## Tech stack
+- PyTorch + HuggingFace Transformers (TrOCR)
+- Tesseract OCR
+- OpenCV (image processing)
+- RapidFuzz (fuzzy matching)
 
 ---
 
