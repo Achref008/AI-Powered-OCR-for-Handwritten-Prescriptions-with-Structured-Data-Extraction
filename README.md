@@ -18,7 +18,7 @@ This project demonstrates how to go beyond OCR and build a system that understan
 
 ---
 
-How it works (pipeline)
+## How it works (pipeline)
 
 Each prescription is processed through the following steps:
 
