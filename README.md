@@ -51,14 +51,20 @@ Result: Reading raw handwritten prescriptions → structured medical data
 
 ---
 
-Key features
-Handwriting OCR (TrOCR + Tesseract ensemble)
-Stamp-aware preprocessing (removes noise while preserving info)
-Automatic region detection (no manual bounding boxes)
-Line segmentation for irregular layouts
-Medical-aware post-processing (drug + dosage extraction)
-Structured output (CSV / JSON)
-Example output
+## Key features
+- Handwriting OCR (TrOCR + Tesseract ensemble)
+- Stamp-aware preprocessing (removes noise while preserving info)
+- Automatic region detection (no manual bounding boxes)
+- Line segmentation for irregular layoutsMedical-aware post-processing (drug + dosage extraction)
+- Structured output (CSV / JSON)
+
+---
+
+## Example output
+```bash
+
+**</>JSON**
+
 {
   "drug": "Tryptizol",
   "dosage": "25mg",
@@ -67,6 +73,7 @@ Example output
   "price": "45,-",
   "date": "1977"
 }
+```
 
 ---
 
