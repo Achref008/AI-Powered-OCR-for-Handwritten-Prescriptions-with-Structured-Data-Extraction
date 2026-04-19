@@ -82,7 +82,7 @@ Result: Reading raw handwritten prescriptions → structured medical data
 ```text
 handwritten-prescription-ocr/
 │
-├── austrian_rx_vision.py
+├── main.py
 ├── sample_data/
 │   ├── prescription_1.pdf
 │   └── prescription_2.pdf
