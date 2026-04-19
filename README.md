@@ -47,7 +47,7 @@ Each prescription is processed through the following steps:
    - Patient
    - Price / Date
 
-Result: Reading raw handwritten prescriptions → structured medical data
+Result: Converts raw handwritten prescriptions into structured medical data.
 
 ---
 
