@@ -63,7 +63,7 @@ Result: Reading raw handwritten prescriptions → structured medical data
 ## Example output
 ```bash
 
-**</>JSON**
+</>JSON
 
 {
   "drug": "Tryptizol",
