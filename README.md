@@ -83,31 +83,18 @@ Result: Reading raw handwritten prescriptions → structured medical data
 handwritten-prescription-ocr/
 │
 ├── austrian_rx_vision.py
-│   Main OCR pipeline:
-│   - preprocessing
-│   - ROI detection
-│   - OCR (TrOCR + Tesseract)
-│   - post-processing & structuring
+├── sample_data/
+│   ├── prescription_1.pdf
+│   └── prescription_2.pdf
 │
-├── debug_images/
-│   Intermediate outputs:
-│   - handwriting masks
-│   - detected regions
+├── results/
+│   ├── annotated_prescription.png
+│   └── structured_output.png
 │
-├── annotated_output/
-│   OCR results with bounding boxes
-│
-├── vocab_cache/
-│   Drug vocabulary (cached)
-│
-├── corrector_model/
-│   OCR correction model (optional)
-│
-├── trocr_finetuned/
-│   Fine-tuned TrOCR model (optional)
-│
-└── prescription_output.csv
-│   Final structured output
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── LICENSE
 ```
 
 ---
