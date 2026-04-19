@@ -128,3 +128,16 @@ Tesseract is used as a secondary OCR engine to improve robustness alongside TrOC
 - Medical document automation
 - Healthcare data pipelines
 - OCR research for noisy handwritten data
+
+## Demo
+
+### Input & Detection
+The system detects handwritten regions and extracts relevant fields:
+
+![Annotated Prescription](https://github.com/Achref008/AI-Powered-OCR-for-Handwritten-Prescriptions-with-Structured-Data-Extraction/blob/main/results/annotated_prescription.PNG))
+
+### Structured Output
+The extracted information is converted into structured medical data:
+
+![OCR Output](https://github.com/Achref008/AI-Powered-OCR-for-Handwritten-Prescriptions-with-Structured-Data-Extraction/blob/main/results/structured_output.png)
+
