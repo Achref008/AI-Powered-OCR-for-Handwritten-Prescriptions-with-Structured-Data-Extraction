@@ -123,7 +123,7 @@ sudo apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-deu
 
 python austrian_rx_vision.py
 ```
-**Note**
+**Note**:
 Tesseract is used as a secondary OCR engine to improve robustness alongside TrOCR.
 
 ---
